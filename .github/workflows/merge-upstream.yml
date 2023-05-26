@@ -11,7 +11,7 @@ name: Merge-upstream
 on:
   push:
     branches:
-      - master
+      - main
   schedule:
     - cron: 30 19 * * *
 
